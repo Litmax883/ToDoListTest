@@ -16,6 +16,7 @@ class ToDoViewController: UITableViewController, UIPickerViewDelegate, UIImagePi
     var selectedCategory : Category? {
         didSet {
             loadData()
+            print("Funny comment")
         }
     }
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
