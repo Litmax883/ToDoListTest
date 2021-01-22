@@ -30,10 +30,18 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1CQ-HF-IVj">
+                                            <rect key="frame" x="186" y="85" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="pqM-iO-tCj" firstAttribute="centerX" secondItem="DzU-sY-Rkg" secondAttribute="centerX" id="G8e-Xx-54K"/>
+                                        <constraint firstItem="1CQ-HF-IVj" firstAttribute="top" secondItem="pqM-iO-tCj" secondAttribute="bottom" constant="7.5" id="bfd-Z1-N3m"/>
                                         <constraint firstItem="pqM-iO-tCj" firstAttribute="centerY" secondItem="DzU-sY-Rkg" secondAttribute="centerY" id="hRJ-Oh-6TX"/>
+                                        <constraint firstItem="1CQ-HF-IVj" firstAttribute="centerX" secondItem="DzU-sY-Rkg" secondAttribute="centerX" id="oOW-gP-Oy1"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
