@@ -13,12 +13,11 @@ class CategoryViewController: UITableViewController {
 
     var categoryArray = [Category]()
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    // Some comments
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         loadData()
     }
-    
     
     @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
         
@@ -89,6 +88,7 @@ class CategoryViewController: UITableViewController {
             categoryArray = try context.fetch(request)
         } catch {
             print("Error: \(error)")
+            //Some comments
         }
         tableView.reloadData()
     }

@@ -11,7 +11,7 @@ import CoreData
 
 
 class ToDoViewController: UITableViewController, UIPickerViewDelegate, UIImagePickerControllerDelegate {
-    //some comments
+    
     var itemsArray = [Item]()
     var selectedCategory : Category? {
         didSet {
